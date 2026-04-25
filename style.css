@@ -1,6 +1,18 @@
 :root {
   --bs-primary: hsl(75, 55%, 50%);
   --bs-primary-rgb: 163, 198, 59;
+  --bs-secondary: hsl(0, 0%, 97%);
+  --bs-secondary-rgb: 247, 247, 247;
+}
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: hsl(75, 55%, 45%);
+  --bs-btn-hover-border-color: hsl(75, 55%, 45%);
+}
+.bg-secondary-dark {
+  background-color: hsl(0, 0%, 22%);
+  color: hsl(0, 0%, 22%);
 }
 
 /* Hero section */
@@ -14,4 +26,29 @@
 
 .navbar-nav .nav-link.active {
   color: var(--bs-primary) !important;
+}
+
+.page2 {
+  min-height: 100vh;
+}
+.page3 {
+  background-color: #5a5a5a;
+  min-height: 100vh;
+}
+
+#left {
+  min-width: 50%;
+}
+#right {
+  min-width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .para-hero {
+    width: 50%;
+  }
+  /* .page3 {
+    height: 100vh;
+    background-color: #5a5a5a;
+  } */
 }
