@@ -35,6 +35,9 @@
   background-color: #5a5a5a;
   min-height: 100vh;
 }
+.page4{
+  min-height: 100vh;
+}
 
 #left {
   min-width: 50%;
@@ -42,13 +45,17 @@
 #right {
   min-width: 50%;
 }
+.nav-bg{
+  background-color: #5a5a5ac7; 
+}
 
 @media screen and (min-width: 768px) {
   .para-hero {
     width: 50%;
   }
-  /* .page3 {
-    height: 100vh;
-    background-color: #5a5a5a;
-  } */
+
+.nav-bg{
+  background-color: transparent !important;
+  padding: 0;
+}
 }
