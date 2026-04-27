@@ -10,18 +10,18 @@
   --bs-btn-hover-bg: hsl(75, 55%, 45%);
   --bs-btn-hover-border-color: hsl(75, 55%, 45%);
 }
-.bg-secondary-dark {
-  background-color: hsl(0, 0%, 22%);
-}
 .text-secondary-dark {
   color: hsl(0, 0%, 50%);
 }
 
+.bg-secondary-dark {
+  background-color: rgba(92, 92, 92, 0.199);
+}
 /* Hero section */
 .hero {
   height: 90vh;
   background:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
     url("https://images.unsplash.com/photo-1554224155-6726b3ff858f")
       center/cover no-repeat;
 }
@@ -42,8 +42,21 @@
   min-height: 100vh;
 }
 .page3 {
-  background-color: #5a5a5a;
-  min-height: 100vh;
+  position: relative;
+  min-height: 90vh;
+  background-color: rgba(56, 56, 56, 0.795);
+}
+.page3::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(./media/page3-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  filter:brightness(0.2) blur(1px);
+
 }
 .page4{
   min-height: 100vh;
