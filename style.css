@@ -64,13 +64,77 @@
 }
 .comment-box{
   height: fit-content;
-  width: fit-content;
+  width: auto;
   min-width: 16rem;
 }
 .page6{
   min-height: 80vh;
 }
+.feedback-input:focus{
+  box-shadow: none;
+  border: none;
+}
 
+.footer {
+  background: #1e1e1e;
+}
+
+/* Links */
+.footer-links li {
+  margin-bottom: 10px;
+}
+.footer-para{
+  color: #aaa;
+}
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: var(--bs-primary);
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.custom-input {
+  background: #2a2a2a;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #bbb !important;
+}
+
+.custom-input:focus {
+  background: #2a2a2a;
+  color: #fff;
+  box-shadow: none;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+}
+
+.footer-bottom {
+  background: #2a2a2a;
+}
 
 @media screen and (min-width: 768px) {
   .para-hero {
