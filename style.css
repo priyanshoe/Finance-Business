@@ -1,6 +1,8 @@
 :root {
   --bs-primary: hsl(75, 55%, 50%);
   --bs-primary-rgb: 163, 198, 59;
+  /* --bs-primary: hsl(200, 55%, 50%);
+  --bs-primary-rgb: 57, 151, 198; */
   --bs-secondary: hsl(0, 0%, 95%);
   --bs-secondary-rgb: 240, 240, 240;
 }
@@ -9,6 +11,8 @@
   --bs-btn-border-color: var(--bs-primary);
   --bs-btn-hover-bg: hsl(75, 55%, 45%);
   --bs-btn-hover-border-color: hsl(75, 55%, 45%);
+  /* --bs-btn-hover-bg: hsl(200, 55%, 50%);;
+  --bs-btn-hover-border-color: hsl(200, 55%, 50%);; */
 }
 .text-secondary-dark {
   color: hsl(0, 0%, 50%);
